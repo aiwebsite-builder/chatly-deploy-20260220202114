@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Inter", sans-serif;
+    @apply bg-gray-950 text-gray-50;
+  }
+}
+
+.radial-gradient-bg {
+  background: radial-gradient(at 50% 0%, #2a0a0a 0%, #1a1a1a 70%);
+}
